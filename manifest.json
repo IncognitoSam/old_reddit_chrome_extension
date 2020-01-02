@@ -1,0 +1,12 @@
+{
+	"name": "Old Reddit Redirecter",
+	"version": "1.0",
+	"description": "Reloads reddit pages as old reddit",
+	"manifest_version": 2,
+        "content_scripts": [
+    {
+      "matches": ["https://www.reddit.com/*"],
+      "js": ["content_script.js"]
+    }
+  ]	
+}
